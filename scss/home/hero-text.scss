@@ -1,0 +1,36 @@
+.hero-text {
+  width: 425px;
+  height: 328px;
+  //   background-color: cornflowerblue;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  //   align-content: center;
+
+  .top-text {
+    //   fix font
+    font-family: gill;
+    color: $white;
+  }
+
+  .mid-text {
+    font-family: gill;
+    color: $white;
+  }
+
+  .read-more {
+    width: 120px;
+    height: 40px;
+    background-color: $site-blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .read-more-text {
+      font-family: gill;
+      color: $white;
+    }
+  }
+}

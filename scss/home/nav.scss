@@ -1,0 +1,30 @@
+nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  //   background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: $white solid 2px;
+
+  .logo {
+    width: 92px;
+    height: 42px;
+    background-image: url(../images/logo-white.png);
+  }
+
+  .links {
+    width: 542px;
+    height: 42px;
+    // background-color: rgb(27, 124, 59);
+    align-self: center;
+    display: flex;
+
+    a {
+      font-family: gill;
+      text-decoration: none;
+      color: $white;
+      margin: auto;
+    }
+  }
+}

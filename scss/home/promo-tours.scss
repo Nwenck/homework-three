@@ -1,0 +1,64 @@
+.promo-tours {
+  width: 1280px;
+  height: 304px;
+  margin: -50px auto 0 auto;
+  //   background-color: rgb(20, 45, 187);
+  display: flex;
+  justify-content: center;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.promo-1 {
+  height: 304px;
+  width: 236px;
+  background-image: 
+  // linear-gradient(to right, $overlay-black, $overlay-black),
+    url(../images/tour-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .promo-text {
+    width: 103px;
+    height: 205px;
+    background-color: aliceblue;
+    .learn-more {
+      width: 120px;
+      height: 40px;
+      background-color: $site-blue;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+
+      .learn-more-text {
+        font-family: gill;
+        color: $white;
+      }
+    }
+  }
+}
+
+.promo-2 {
+  height: 304px;
+  width: 236px;
+  background-image: linear-gradient(to right, $overlay-black, $overlay-black),
+    url(../images/tour-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+.promo-3 {
+  height: 304px;
+  width: 236px;
+  background-image: linear-gradient(to right, $overlay-black, $overlay-black),
+    url(../images/tour-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
